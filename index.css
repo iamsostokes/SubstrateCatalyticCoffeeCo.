@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(255, 253, 239);
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+#MainPanel {
+    /* height: 200px; */
+    border-style: dotted;
+    outline-style: solid;
+    box-shadow: 3px 3px 20px grey;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+h1 {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 300%;
+}
+
+#logo {
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+#SubPanel {
+    height: 200px;
+    /* border-style: dotted; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+#MainPanel2 {
+    /* height: 200px; */
+    border-style: dotted;
+    outline-style: dotted;
+    box-shadow: 3px 3px 20px grey;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.PanelIcon {
+   width: 11%;
+  
+}
+
+#SubPanel2 {
+    /* height: 200px; */
+    /* border-style: dotted; */
+    background: linear-gradient(rgb(255, 253, 232), rgb(231, 228, 200)) ;
+    padding: 1%;
+    align-content: center;
+}
+
+#MainPanel3 {
+    /* height: 200px; */
+    border-style: dotted;
+    outline-style: dotted;
+    box-shadow: 3px 3px 20px grey;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#SubPanel3 {
+    /* height: 200px; */
+    /* border-style: dotted; */
+    background: linear-gradient(rgb(255, 253, 232), rgb(231, 228, 200)) ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#MainPanel4 {
+    /* height: 200px; */
+    border-style: dotted;
+    outline-style: dotted;
+    box-shadow: 3px 3px 20px grey;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#SubPanel4 {
+    /* height: 200px; */
+    /* border-style: dotted; */
+    background: linear-gradient(rgb(255, 253, 232), rgb(231, 228, 200)) ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+
+@media (max-width: 690px) {
+    h1 {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 515px) {
+    h1 {
+        font-size: 165%;
+    }
+
+    #MainPanel {
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+
+    #MainPanel2 {
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+
+    #MainPanel3 {
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    #MainPanel4 {
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+
+}
+
+@media (max-width: 690px) {
+    #logo {
+        height: 150px;
+    }
+}
+
+@media (max-width: 515px) {
+    #logo {
+        height: 100px;
+    }
+}
